@@ -1,0 +1,39 @@
+.navbar {
+    width: calc(100% - 260px);
+    height: 140px;
+    background-color: #ABACF0;
+    position: fixed;
+    top: 0;
+    left: 260px; /* Adjust this value to match your sidebar width */
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.navbar-title { 
+    font-size: 64px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    padding-left: 40px;
+    color: black;
+    margin-right: auto; /* This pushes the title to the left */
+}
+
+.navbar-welcome {
+    font-size: 22px;
+    color: black;
+    margin-right: 20px;
+}
+
+.navbar-logo {
+    width: 60px;
+    height: auto;
+    background-color: transparent; /* Ensure it's transparent */
+
+}
